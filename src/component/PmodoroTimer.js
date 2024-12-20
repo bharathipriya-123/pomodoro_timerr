@@ -57,11 +57,11 @@ const PomodoroTimer = () => {
   };
 
   
-  useEffect(() => {
-    if (!isRunning && !isBreak) {
-      setRemainingTime(duration);
-    }
-  }, [duration]);
+  // useEffect(() => {
+  //   if (!isRunning && !isBreak) {
+  //     setRemainingTime(duration);
+  //   }
+  // }, [duration]);
 
 
   useEffect(() => {
